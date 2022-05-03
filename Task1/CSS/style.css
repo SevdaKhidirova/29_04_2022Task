@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#container {
+    background-image: url(../images/News-Investing-Twitter-Stock-Elon-Musk.jpg);
+    width: 100vw;
+    height: calc(100vh - 200px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+.time{
+    width: 280px;
+    height: 40px;
+    background-color: #177986;
+    font-size: 26px;
+    padding-top: 5px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: .8;
+}
+.left-icon,.right-icon{
+    font-size: 40px;
+    top: 300px;
+    transition: all .5s ease;
+    cursor: pointer;
+    color: rgb(18, 60, 80);
+}
+.left-icon{
+    float: left;
+    position: relative;
+    left: 10px;
+}
+.left-icon:hover{
+    color: rgb(41, 182, 224);
+}
+.right-icon:hover{
+    color: rgb(41, 182, 224);
+}
+.right-icon{
+    float: right;
+    position: relative;
+    right: 10px;
+}
+.news-title{
+    width: 100vw;
+    height: 200px;
+    background-color: #262626;
+    color: rgb(255, 251, 251);
+    padding: 30px;
+}
+.news-title .news{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}

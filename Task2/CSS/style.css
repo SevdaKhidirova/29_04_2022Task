@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cards{
+    width: calc(100vw - 100px);
+    margin: 40px 70px;
+    padding-top: 30px;
+}
+.card-item1{
+    width: 23%;
+    float: left;
+    margin: 10px;
+}
+.card-item1 .image-area{
+    background-image: url(../images/bear.jpg);
+    width: 100%;
+    height: 240px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 5px;
+}
+.card-item1 .image-area:hover .icon-area{
+ visibility: visible;
+}
+.card-item1 .image-area:hover .new{
+    visibility: visible;
+   }
+.icon-area{
+    float: right;
+    visibility: hidden;
+    cursor: pointer;
+}
+.icon-area i{
+    display: block;
+    background-color: #378F33;
+    color: white;
+    margin: 10px;
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 10px;
+    font-size: 23px;
+}
+.new{
+    background-color: gray;
+    color: white;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    visibility: hidden;
+}
+
+.words-area {
+   text-align: center;
+   margin-top: 10px;
+   font-size: 25px;
+}
+.words-area .price{
+    display: inline-block;
+    color: #378F33;
+    margin: 8px 0px;
+    font-weight: 700;
+}
+.words-area .star-area{
+    font-size: 30px;
+    font-weight: 700px;
+    color: #d6d317;
+    cursor: pointer;
+}
